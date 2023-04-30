@@ -1,0 +1,223 @@
+body {
+    margin: 0 auto;
+    background-color: gainsboro;
+  }
+  .container {
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+  }
+  .logo {
+    float: left;
+    padding: 15px;
+  }
+  .search {
+    float: right;
+    padding: 50px;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .main-menu {
+    background-color: dodgerblue;
+  }
+  .main-menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  .main-menu > ul > li {
+    display: inline-block;
+  }
+  .main-menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-family: small;
+  }
+  .main-menu > ul > li > a:hover {
+    background-color:darkblue;
+  }
+  .dropdown {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+  }
+  .dropdown > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-family: small;
+    background-color: darkblue;
+  }
+  .dropdown > li > a:hover {
+    background-color: cornflowerblue;
+  }
+  .main-menu > ul > li:hover .dropdown {
+    display: block;
+  }
+  .banner {
+    width: 1000px;
+    height: 500;
+    overflow: hidden;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  /*content holder*/
+
+  .content-holder{
+    background-color:purple;
+  }
+
+  .content{
+    width: 800px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+
+
+  }
+  .content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    }
+  .content p{
+    font-family: serif;
+    font-size: small;
+  }
+
+  .sidebar{
+    float: left;
+    padding: 25px;
+  }
+  .sidebar h2{
+    font-family: sans-serif;
+    color: white;
+  }
+  .sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  .sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    text-decoration: none;
+  }
+  .main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+
+  }
+
+  .footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+
+  }
+
+  .footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
+address p{
+   font-size: small;
+
+  }
+
+  .footer-box address a{
+    color: dodgerblue;
+  }
+
+  .copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .copy p{
+    margin: 0px;
+  }
+
+  /*About us*/
+  .content img{
+    max-width: 100%;
+  }
+/*product*/
+.product{
+  width: 244px;
+  height: auto;
+  float: left;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.product-caption p{
+  font-weight: bold;
+}
+ 
+.product-caption del{
+  color: crimson;
+}
+.product-caption ins{
+  color: green;
+}
+/*Buy Now Button*/
+
+.product-caption a{
+  display: block;
+  background-color: dodgerblue;
+  padding: 9px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  text-decoration: none;
+
+}
+
+.product-caption a:hover{
+  background-color: darkblue;
+
+}
+
+/*contact page*/
+
+.banner iframe{
+  width: 100%;
+  height: 416.66px;
+}
+
