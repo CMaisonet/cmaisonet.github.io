@@ -4,7 +4,7 @@ body {
   }
 
   .container {
-    width: auto;
+    width: fit-content;
     height: auto;
     background-color: white;
     margin: auto;
