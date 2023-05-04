@@ -97,9 +97,12 @@ body {
     padding: .5em; /*Words*/
     background-color: white;
     float: left;
-    
-    
 
+  }
+    @media(max-width:800px){
+    .content{
+      background-color: deepskyblue;
+    }
   }
 
   .content h1{
