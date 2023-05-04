@@ -28,6 +28,12 @@ body {
     background-color: dodgerblue;
     
   }
+
+  @media(max-width:400px){
+    .main-menu{
+      background-color: darkseagreen;
+    }
+  }
   
   .main-menu > ul {
     margin: 0em;
@@ -49,6 +55,12 @@ body {
   .main-menu > ul > li > a:hover {
     background-color:darkblue;
   }
+  @media(max-width:400px){
+    .main-menu > ul > li > a:hover{
+      background-color: gray;
+    }
+  }
+
   .dropdown {
     list-style-type: none;
     margin: 0em;
@@ -66,9 +78,20 @@ body {
     font-family: small;
     background-color: darkblue;
   }
+
+  @media(max-width:600px){
+    .dropdown > li > a{
+      background-color: darkseagreen;
+    }
+  }
   .dropdown > li > a:hover {
     background-color: cornflowerblue;
     width: auto;
+  }
+  @media(max-width:600px){
+    .dropdown > li > a:hover{
+      background-color: gray;
+    }
   }
   .main-menu > ul > li:hover .dropdown {
     display: block;
@@ -90,10 +113,10 @@ body {
     background-color:dodgerblue;
     width: 100%;
   }
-  
-     @media(max-width:400px){
+
+  @media(max-width:400px){
     .content-holder{
-      background-color: gray;
+      background-color:grey;
     }
   }
 
@@ -103,11 +126,11 @@ body {
     padding: .5em; /*Words*/
     background-color: white;
     float: left;
-
   }
-    @media(max-width:600px){
+
+  @media(max-width:400px){
     .content{
-      background-color: darkseagreen;
+      background-color:darkseagreen;
     }
   }
 
@@ -145,7 +168,7 @@ body {
     font-style: italic;
     text-decoration: none;
   }
-.main-footer{
+  .main-footer{
     background-color: black;
     color: white;
     width: auto;
@@ -155,7 +178,7 @@ body {
   }
   @media(max-width:400px){
     .main-footer{
-      background-color:whitesmoke;
+      background-color:darkseagreen;
       color: black;
     }
   }
@@ -184,7 +207,7 @@ body {
 
   @media(max-width:400px){
     .footer-box> ul > li > a{
-      background-color:whitesmoke;
+      background-color:darkseagreen;
       color: black;
     }
   }
@@ -204,6 +227,11 @@ address p{
     text-align: center;
     background-color: dodgerblue;
     color: white;
+  }
+  @media(max-width:400px){
+    .copy{
+      background-color: black;
+    }
   }
 
   .copy p{
