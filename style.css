@@ -87,7 +87,7 @@ body {
   /*content holder*/
 
  .content-holder{
-    background-color:darkmagenta;
+    background-color:orchid;
     width: 100%;
   }
 
@@ -101,7 +101,7 @@ body {
   }
     @media(max-width:800px){
     .content{
-      background-color: deepskyblue;
+      background-color: lightgray;
     }
   }
 
