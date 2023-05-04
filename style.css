@@ -271,11 +271,21 @@ address p{
 
 }
 
+@media(max-width:600px){
+  .product-caption a{
+    background-color: darkseagreen;
+  }
+}
+
 .product-caption a:hover{
   background-color: darkblue;
 
 }
-
+@media(max-width:600px){
+  .product-caption a:hover{
+    background-color: gray;
+  }
+}
 /*contact page*/
 
 .banner iframe{
