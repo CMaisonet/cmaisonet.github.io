@@ -99,7 +99,7 @@ body {
     float: left;
 
   }
-    @media(max-width:750px){
+    @media(max-width:700px){
     .content{
       background-color: lightgray;
     }
