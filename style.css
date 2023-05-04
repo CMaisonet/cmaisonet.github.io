@@ -128,11 +128,12 @@ body {
     float: left;
   }
 
-  @media(max-width:500px){
+ /* @media(max-width:500px){
     .content{
       background-color:darkseagreen;
     }
   }
+  */
 
   .content h1{
     font-size: 2.5em; /*Bold Text*/
