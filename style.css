@@ -121,7 +121,7 @@ body {
   }
 
   .content{
-    width: 80%; /*Words*/
+    width: 75%; /*Words*/
     height: auto;
     padding: .5em; /*Words*/
     background-color: white;
