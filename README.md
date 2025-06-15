@@ -28,4 +28,4 @@ At first my js was not working here a simple change to the http: into https: mad
 - Continue developing interactive apps to showcase dynamic functionality
 
 ## 📬 Contact
-You can reach me on [LinkedIn](https://www.linkedin.com/maisonet-c) or view more of my work [on GitHub](https://github.com/CMaisonet).
+You can reach me on [LinkedIn](http://linkedin.com/in/maisonet-c) or view more of my work [on GitHub](https://github.com/CMaisonet).
